@@ -38,3 +38,23 @@ or pro_data_1.csv, pro_data_2.csv and pro_data_3.csv
 - Bad Loan % by Age Group and Education Level
 - Simulated Risk using Loan Amount Parameters
 - Confusion Matrix and Model Accuracy Comparison
+
+
+
+## The Value of Balancing the Dataset
+
+An unbalanced model may appear to perform well because it predicts the majority class correctly in most cases. However, its true weakness is exposed when identifying the minority class — in this case, risky clients who are likely to default. By applying SMOTE, the dataset is synthetically balanced, allowing the model to learn patterns from both good and bad loans more effectively. This enhances fairness, reduces bias, and increases predictive power where it matters most: identifying potential defaults before they occur.
+
+## Deployment Process
+
+The deployment process involved the following steps:
+- Data Preparation – irrelevant columns were removed, and features were divided into numerical and categorical groups.
+- Model Training – one pipeline was trained on the raw dataset (unbalanced), and another on the SMOTE-augmented dataset (balanced).
+- Model Saving – trained models were serialized as .pkl files for later use.
+- App Development – two Streamlit applications were built, each loading its respective model and collecting loan application details through an intuitive interface.
+
+## Practical Implications
+
+- For Financial Institutions: The balanced model provides a stronger safety net against loan defaults, identifying risky clients more reliably.
+- For Analysts and Developers: The unbalanced model offers a baseline for comparison, illustrating the importance of addressing data imbalance.
+- For End-Users: The web application makes predictions accessible in a user-friendly form, enabling real-time decision support.
