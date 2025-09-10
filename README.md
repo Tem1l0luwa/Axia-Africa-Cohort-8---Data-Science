@@ -9,6 +9,7 @@ This project uses machine learning to predict the likelihood of loan default bas
 - data: Raw and cleaned datasets
 - images: Visual exports from Power BI
 - README.md: Project documentation
+- Medium: Project documentation(https://medium.com/@olatujatemiloluwa/predicting-loan-risk-fd69fde33e9b)
 
 ## Objectives
 
