@@ -11,7 +11,7 @@ This project uses machine learning to predict the likelihood of loan default bas
 - README.md: Project documentation
 - Medium: Project documentation(https://medium.com/@olatujatemiloluwa/predicting-loan-risk-fd69fde33e9b)
 - Deployment-imbalance Link (https://axia-africa-cohort-8---data-science-rcbfsacfszhf3aaausgniw.streamlit.app)
-- Deployment-balanced link (
+- Deployment-balanced link (https://axia-africa-cohort-8---data-science-zajt2ehr2dx6ftrr6ene2b.streamlit.app)
 
 ## Objectives
 
